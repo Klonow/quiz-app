@@ -1,0 +1,25 @@
+.mainList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    height: 50px;
+    border: 2px dashed white;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.mainList div {
+    margin-left: 5px;
+}
+
+.resultCheck {
+    color: green;
+    font-size: 28px;
+}
+
+.resultClose {
+    color: red;
+    font-size: 28px;
+}
