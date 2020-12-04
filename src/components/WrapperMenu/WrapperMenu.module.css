@@ -1,0 +1,39 @@
+.Wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.WrapperMenu {
+    height: 40px;
+}
+
+.WrapperMenu nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.WrapperMenu ul {
+    display: flex;
+    align-items: center;
+}
+
+.active {
+    color: silver;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-right: 10px;
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}

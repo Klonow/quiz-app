@@ -1,0 +1,76 @@
+
+
+.Authenticated {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+
+
+.Authenticated input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    border: none;
+    padding: 0 7px 0 7px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 200px;
+    height: 30px;
+    outline: none;
+}
+
+
+.Authenticated button {
+    width: 100%;
+    outline: none;
+    margin: 13px 0 13px;
+    padding: 5px 0 5px;
+    font-size: 14px;
+    background: white;
+    border: none;
+    transition: background-color .5s ease-in-out;
+}
+
+.Authenticated button:disabled {
+    cursor: no-drop;
+}
+
+.Authenticated .hoverBtn:hover {
+    transition: background-color .5s ease-in-out;
+    background: silver;
+    cursor: pointer;
+}
+
+.Authenticated .menu {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.Authenticated .menu .active {
+    color: silver;
+}
+
+.Authenticated .menu a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+
+}
+.Authenticated .menu a:hover {
+    transition: color 0.2s ease-in-out;
+    color: silver;
+}
+
+.Authenticated .main {
+    width: auto;
+}
+
+

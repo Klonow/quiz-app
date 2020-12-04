@@ -1,0 +1,31 @@
+.activeAnswer {
+    background: red;
+    transition: all ease-out 0.7s;
+}
+
+.successAnswer {
+    background: green;
+    transition: all ease-in-out 0.7s;
+}
+
+.default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: auto;
+    text-align: center;
+    width: 20%;
+    min-height: auto;
+    height: 50px;
+    transition: background ease-in-out 0.7s;
+}
+
+.default:hover {
+    border: 1px solid rgb(192,192,192);
+    box-shadow: 0 0 0 2px white, 0 0 0 4px rgba(128, 128, 128, .3);
+}
+
+.DrawingAnswer {
+    display: flex;
+    justify-content: space-around;
+}
